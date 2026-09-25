@@ -1,4 +1,4 @@
-# Vera+ — magicpin AI Challenge submission
+# Vera+ - magicpin AI Challenge submission
 
 ## Approach: decide in code, write from context, never invent
 
