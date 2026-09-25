@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: vera-bot
+    runtime: python
+    plan: free
+    buildCommand: "echo no deps"
+    startCommand: "python bot.py"
+    healthCheckPath: /v1/healthz
+    envVars:
+      - key: TEAM_NAME
+        value: "Team Vera+"
+      - key: PYTHON_VERSION
+        value: "3.11.9"
